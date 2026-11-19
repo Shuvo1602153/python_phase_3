@@ -1,10 +1,8 @@
 def token_calculation(message):
-    tokens = int(round((len(message.split()) * 1.3) / 1000))
-    return tokens
+    return int(round(len(message.split()) * 1.3))
 
-
-def token_cost(token):
-    return token * 0.002
+def token_cost(tokens):
+    return tokens * 0.002 / 1000
 
 
 def save_to_log_file(file_name, log_lines):
