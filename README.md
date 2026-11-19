@@ -47,4 +47,4 @@ Next steps
 [ ] Handle network and API errors gracefully
 Author
 
-Shuvo, learning Python with a goal of becoming an LLM engineer. GitHub: Shuvo1602153
+Belayet Hosen, learning Python with a goal of becoming an LLM engineer. GitHub: Shuvo1602153
